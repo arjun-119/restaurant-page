@@ -1,0 +1,11 @@
+#content{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-para{
+    background-color: rgb(250, 247, 68);
+    color: black;
+}
