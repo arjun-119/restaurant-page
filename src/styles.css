@@ -20,6 +20,13 @@ h1{
     padding:12px;
 }
 
+.sub-para{
+    background-color: rgba(250, 247, 68,0.7);
+    color: black;
+    border-radius:10px;
+    padding:12px;
+}
+
 nav{
     display: flex;
     justify-content: center;
