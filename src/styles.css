@@ -1,11 +1,26 @@
+html{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 #content{
     display: grid;
     grid-template-rows: 1fr 4fr;
     justify-content: center;
     align-items: center;
 }
-
+h1{
+    justify-self: center;
+}
 .main-para{
     background-color: rgb(250, 247, 68);
     color: black;
+    border-radius:10px;
+    padding:12px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
 }
