@@ -1,5 +1,7 @@
  export default function home(){
   const mainContent = document.querySelector("#content");
+  mainContent.textContent = '';
+
   const innerdiv = document.createElement("div");
   const heading = document.createElement("h1");
   heading.textContent = "Welcome to Junes Bar :)"
